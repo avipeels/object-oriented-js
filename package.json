@@ -1,0 +1,25 @@
+{
+  "name": "OOJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avipeels/object-oriented-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avipeels/object-oriented-js/issues"
+  },
+  "homepage": "https://github.com/avipeels/object-oriented-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "lite-server": "^2.5.4"
+  }
+}
