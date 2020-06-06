@@ -1,11 +1,11 @@
-function Cirle(radius) {
+function Circle(radius) {
   this.radius = radius;
   this.draw = function () {
     console.log(draw);
   }
 }
 
-const circle = new Cirle(10);
-for (var key of circle) {
+const circle = new Circle(10);
+for (let key in circle) {
   console.log(key);
 }
