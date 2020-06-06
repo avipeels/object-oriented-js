@@ -8,6 +8,7 @@ function Circle(radius) {
   this.radius = radius;
 
   this.draw = function () {
+  const circle = new Circle(10);
     computeOptimumLocation(0.1); // private methods can be called only inside the function
     console.log(draw);
   }
