@@ -12,3 +12,7 @@ for (let key in circle) {
 
 const keys = Object.keys(circle);
 console.log(keys);
+
+if ('radius' in circle) {
+  console.log('Circle has radius');
+}
