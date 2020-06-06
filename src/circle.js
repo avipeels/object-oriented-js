@@ -14,5 +14,9 @@ const keys = Object.keys(circle);
 console.log(keys);
 
 if ('radius' in circle) {
-  console.log('Circle has radius');
+  console.log('Circle has radius -');
+}
+
+circle.location = {
+  x:10,  y:20
 }
