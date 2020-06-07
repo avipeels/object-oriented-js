@@ -2,6 +2,9 @@ class Shape {
     constructor(color) { // common props can go to parent
         this.color = color;
     }
+    move() {
+        console.log('move');
+    }
 }
 
 class Circle extends Shape {
@@ -12,7 +15,11 @@ class Circle extends Shape {
     draw() {
         console.log('draw');
     }
+    move() {
+        super.move();
+        console.log('circle move');
+    }
 }
 
 const circle = new Circle('red', 1); // can invoke with all props be it in parent or child
-console.log(circle);
+console.log(circle.move());
